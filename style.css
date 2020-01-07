@@ -1,0 +1,119 @@
+
+#top-buttons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+}
+#top-buttons button {
+  padding: 10px;
+  text-align: center;
+  border: none;
+}
+.transparent {
+  background-color: transparent;
+}
+#search-buttons button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+#search-buttons button:hover {
+  border: grey 1px solid;
+  cursor: pointer;
+}
+.transparent:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#applications {
+  width: 35px;
+  background-image: url(images/_apps.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+#applications:hover {
+  opacity: 1.5;
+  filter: alpha(opacity=150);
+}
+#connexion {
+  background-color: rgb(66,133,244);
+  color: white;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.element {
+  margin: 10px;
+} 
+#top-buttons button {
+  margin: 5px;
+}
+
+#search {
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: darkgray;
+  border-radius: 10px;
+  background: url(images/_loupe.png), url(images/_micro.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, right;
+  background-origin: padding-box;
+  background-size: 20px;
+  width: 500px;
+  height: 15px;
+  padding: 10px;
+  padding-left: 30px;
+}
+#search:hover{
+  box-shadow: 5px 3px 3px grey;
+}
+#search:focus {
+  outline: none;
+}
+#footer {
+  display: flex;
+  flex-direction: column;
+}
+#country {
+  background-color: rgb(241, 241, 241);
+  padding: 5px;
+  border: rgba(187, 186, 186, 0.644) 1px solid;
+  border-bottom: none;
+  flex: 1 1 auto;
+  flex-wrap: nowrap;
+  padding-left: 15px;
+  
+}
+#footer-buttons {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  border: rgba(187, 186, 186, 0.644) 1px solid;
+  flex-wrap: nowrap; 
+  justify-content: space-between;
+  background-color: rgb(241, 241, 241);
+  padding: 15px;
+}
+#footer-buttons button {
+  border: none;
+  background-color: transparent;
+  
+}
+#footer-buttons button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
